@@ -1,7 +1,11 @@
-.skeleton{
-    width: 100vh;
-    height: 100vh;
+*{
+}
+body{
     background-color: #121212;
+}
+.skeleton{
+    height: 100vh;
     position: relative;
     overflow: hidden;
+    color: white;
 }

@@ -23,25 +23,13 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\\.js$/,
-                loader: "babel-loader",
-                exclude: "/node_modules/",
-            },
-            // CSS rules
-            {
-                test: /\\.css$/,
+                test: /\.css$/,
                 use: [
-                    "style-loader",
-                    {
-                        loader: "css-loader",
-                        options: {
-                            importLoaders: 1,
-                            modules: true,
-                        },
-                    },
-                ],
-            },
-        ],
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
     },
 };
 

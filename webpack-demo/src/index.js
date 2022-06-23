@@ -1,6 +1,7 @@
 import _ from 'lodash';
 /*require('./index.css');*/
-
+import styles from "./stylesheets/index.css";
+console.log(styles);
 import myName from './myName';
 function component() {
     const element = document.createElement('div');
