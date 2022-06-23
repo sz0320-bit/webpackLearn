@@ -1,0 +1,7 @@
+.skeleton{
+    width: 100vh;
+    height: 100vh;
+    background-color: #121212;
+    position: relative;
+    overflow: hidden;
+}
